@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Nosotros from "@/components/Nosotros";
 
 export default function Home() {
   return (
-    <div className="">
-      Hola
+    <div className="min-h-screen w-full">
+      <Nosotros/>
     </div>
   );
 }
