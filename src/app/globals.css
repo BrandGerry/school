@@ -3,6 +3,7 @@
 /* Variables base (modo claro por defecto) */
 :root {
   --background: #ffffff;
+  --backgroundSec: #ebebeb;
   --foreground: #242424;
   --navBackground: #f1f1f1;
   --yellowBackground: #fcbb0b;
@@ -12,6 +13,7 @@
 /* Variables en modo oscuro */
 html.dark {
   --background: #131313;
+  --backgroundSec: #1f1e1e;
   --foreground: #ededed;
   --navBackground: #292929;
   --yellowBackground: #c4900b;
