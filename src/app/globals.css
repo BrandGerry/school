@@ -4,14 +4,18 @@
 :root {
   --background: #ffffff;
   --foreground: #242424;
-  --navBackground: #f1f1f1; /* Rojo para modo claro */
+  --navBackground: #f1f1f1;
+  --yellowBackground: #fcbb0b;
+  --ourText: #104e64;
 }
 
 /* Variables en modo oscuro */
 html.dark {
   --background: #131313;
   --foreground: #ededed;
-  --navBackground: #292929; /* Gris para modo oscuro */
+  --navBackground: #292929;
+  --yellowBackground: #c4900b;
+  --ourText: #d6d3d3;
 }
 
 /* Aplicar variables al body */

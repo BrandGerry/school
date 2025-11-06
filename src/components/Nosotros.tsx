@@ -4,7 +4,6 @@ import School2 from "../images/school2.jpg";
 import School3 from "../images/school3.jpg";
 import School4 from "../images/school4.jpg";
 
-
 const Nosotros = () => {
   // Crear un array con las imágenes importadas
   const galleryImages = [School2, School3, School4];
@@ -18,24 +17,39 @@ const Nosotros = () => {
     >
       {/* Encabezado principal */}
       <div className="max-w-4xl text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold text-neutral-800 mb-4">
+        <h2
+          className="text-4xl md:text-5xl font-bold mb-4"
+          style={{
+            color: "var(--foreground)",
+          }}
+        >
           Nosotros
         </h2>
-        <p className="text-sm text-cyan-900 tracking-wide">
+        <p
+          className="text-sm tracking-wide"
+          style={{
+            color: "var(--ourText)",
+          }}
+        >
           Acuerdo de Incorporación al Sistema Educativo Nacional:
           PRER-09180029CT
         </p>
       </div>
 
       {/* Bloque principal */}
-      <div className="max-w-5xl grid md:grid-cols-2 gap-12 items-center">
+      <div
+        className="max-w-5xl grid md:grid-cols-2 gap-12 items-center"
+        style={{
+          color: "var(--ourText)",
+        }}
+      >
         <div className="space-y-6">
-          <p className="text-lg text-cyan-900 leading-relaxed">
+          <p className="text-lg leading-relaxed">
             En <span className="font-semibold text-green-900">Tegüi</span>{" "}
             guiamos el desarrollo integral de los niños a través del juego, la
             curiosidad y el descubrimiento.
           </p>
-          <p className="text-lg text-cyan-900 leading-relaxed">
+          <p className="text-lg leading-relaxed">
             Nuestro enfoque constructivista fomenta la confianza, la autonomía y
             el aprendizaje feliz.
           </p>
@@ -52,8 +66,14 @@ const Nosotros = () => {
         </div>
       </div>
 
-      {/* Bloque morado */}
-      <div className="mt-20 bg-amber-400 text-neutral-800 text-center py-8 px-4 rounded-3xl shadow-xl max-w-3xl">
+      {/* Bloque amarillo */}
+      <div
+        className="mt-12 md:mt-20 text-center py-8 px-4 rounded-3xl shadow-xl max-w-3xl"
+        style={{
+          color: "var(--foreground)",
+          background:"var(--yellowBackground)"
+        }}
+      >
         <p className="text-xl font-light text">
           Formamos niños independientes, responsables y seguros...
         </p>
@@ -63,7 +83,7 @@ const Nosotros = () => {
       </div>
 
       {/* Galería minimalista */}
-      <div className="mt-20 grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl">
+      <div className="mt-20 hidden md:grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl">
         {galleryImages.map((img, i) => (
           <div
             key={i}
