@@ -1,3 +1,4 @@
+import Informacion from "@/components/Informacion";
 import Nosotros from "@/components/Nosotros";
 import Servicios from "@/components/Servicios";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="min-h-screen w-full">
       <Nosotros/>
       <Servicios/>
+      <Informacion/>
     </div>
   );
 }
