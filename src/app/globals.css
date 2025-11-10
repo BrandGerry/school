@@ -4,6 +4,7 @@
 :root {
   --background: #ffffff;
   --backgroundSec: #ebebeb;
+  --backgroundFooter: #83788b;
   --foreground: #242424;
   --navBackground: #f1f1f1;
   --yellowBackground: #fcbb0b;
@@ -14,6 +15,7 @@
 html.dark {
   --background: #131313;
   --backgroundSec: #1f1e1e;
+  --backgroundFooter: #534d58;
   --foreground: #ededed;
   --navBackground: #292929;
   --yellowBackground: #c4900b;
