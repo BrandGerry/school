@@ -1,10 +1,9 @@
-import React from "react";
 import { Heart } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer
-      className="bg-green-800 py-6 px-4 flex flex-col md:flex-row items-center justify-between text-sm tracking-wide"
+      className="py-6 px-4 flex flex-col md:flex-row items-center justify-between text-sm tracking-wide"
       style={{
         backgroundColor: "var(--backgroundFooter)",
       }}

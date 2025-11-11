@@ -1,6 +1,7 @@
 import { MapPin, Phone, Mail, Calendar, FileText } from "lucide-react";
 import Image from "next/image";
 import Logo from "../images/Logo.png";
+import Link from "next/link";
 
 const Informacion = () => {
   return (
@@ -54,21 +55,21 @@ const Informacion = () => {
 
       {/* Enlaces inferiores */}
       <div className="mt-10 flex flex-col md:flex-row">
-        <a
+        <Link
           href="/calendario"
           className="flex items-center text-green-700 hover:text-green-900 transition space-x-1 px-2 mb-3 md:mb-0"
         >
           <Calendar className="w-5 h-5" />
           <p>Calendario Escolar</p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="/aviso-privacidad"
           className="flex items-center justify-end text-green-700 hover:text-green-900 transition space-x-1 px-2"
         >
           <FileText className="w-5 h-5" />
           <p>Aviso de Privacidad</p>
-        </a>
+        </Link>
       </div>
     </section>
   );
