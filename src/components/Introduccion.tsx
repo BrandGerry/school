@@ -45,7 +45,7 @@ const Introduccion = () => {
 
           <div className="mt-6 text-center md:text-start">
             <Link
-              href="/Nosotros"
+              href="/nosotros"
               className="px-5 py-2 bg-amber-500 rounded-md hover:bg-amber-600 transition-colors"
             >
               Ver más...

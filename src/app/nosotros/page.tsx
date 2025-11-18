@@ -1,11 +1,11 @@
-import React from 'react'
+import Nosotros from "@/components/Nosotros";
 
 const page = () => {
   return (
-    <div>
-      Nosotros
-    </div>
-  )
-}
+    <>
+      <Nosotros />
+    </>
+  );
+};
 
-export default page
+export default page;

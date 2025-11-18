@@ -1,9 +1,10 @@
+import InfoServicios from '@/components/Info_servicios'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      Servicios
+      <InfoServicios/>
     </div>
   )
 }

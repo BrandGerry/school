@@ -50,6 +50,15 @@ const Nosotros = () => {
             curiosidad y el descubrimiento.
           </p>
           <p className="text-lg leading-relaxed">
+            Esta es la etapa en que tu hijo determina cómo va a afrontar sus
+            emociones y cómo va a relacionarse con los demás. Además,
+            establecerá las formas básicas de pensar, responder y solucionar
+            problemas. La comunicación constante y directa contigo es la clave
+            para que juntos alcancemos el mejor desarrollo de tu hijo a través
+            de buenos hábitos. Nuestro modelo educativo es constructivista y al
+            juego lo consideramos como una estrategia de aprendizaje esencial.
+          </p>
+          <p className="text-lg leading-relaxed">
             Nuestro enfoque constructivista fomenta la confianza, la autonomía y
             el aprendizaje feliz.
           </p>
@@ -71,7 +80,7 @@ const Nosotros = () => {
         className="mt-12 md:mt-20 text-center py-8 px-4 rounded-3xl shadow-xl max-w-3xl"
         style={{
           color: "var(--foreground)",
-          background:"var(--yellowBackground)"
+          background: "var(--yellowBackground)",
         }}
       >
         <p className="text-xl font-light text">
