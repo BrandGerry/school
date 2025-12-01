@@ -1,11 +1,12 @@
-import React from 'react'
+import Convenio from "@/components/Convenio";
+import React from "react";
 
 const page = () => {
   return (
     <div>
-      Convenio
+      <Convenio />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
