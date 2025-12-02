@@ -149,10 +149,10 @@ const Navbar = () => {
 
           {/* Menú Desktop */}
           <div
-            className="hidden w-full md:block md:w-auto md:order-1"
+            className="hidden w-full md:block md:w-auto md:order-1 text-lg font-semibold"
             id="navbar-default"
           >
-            <ul className="justify-center items-start md:items-center font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+            <ul className="justify-center items-start md:items-center flex flex-col p-4 md:p-0 mt-4 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
                 <Link
                   href="/"
