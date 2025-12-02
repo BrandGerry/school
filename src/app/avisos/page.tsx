@@ -1,7 +1,7 @@
 import Avisos from '@/components/Avisos'
 import React from 'react'
 
-const page = () => {
+const AvisosPage = () => {
   return (
     <div>
       <Avisos/>
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page
+export default AvisosPage

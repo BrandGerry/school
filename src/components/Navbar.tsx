@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Logo from "../images/Logo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -153,60 +154,67 @@ const Navbar = () => {
           >
             <ul className="justify-center items-start md:items-center font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block py-2 px-3 text-white rounded-sm md:p-0 dark:text-white"
-                  aria-current="page"
-                  style={{
-                    color: "var(--foreground)",
-                  }}
+                  style={{ color: "var(--foreground)" }}
                 >
-                  Home
-                </a>
+                  Inicio
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  style={{
-                    color: "var(--foreground)",
-                  }}
+                <Link
+                  href="/nosotros"
+                  className="block py-2 px-3 text-white rounded-sm md:p-0 dark:text-white"
+                  style={{ color: "var(--foreground)" }}
                 >
-                  About
-                </a>
+                  Nosotros
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  style={{
-                    color: "var(--foreground)",
-                  }}
+                <Link
+                  href="/servicios"
+                  className="block py-2 px-3 text-white rounded-sm md:p-0 dark:text-white"
+                  style={{ color: "var(--foreground)" }}
                 >
-                  Services
-                </a>
+                  Servicios
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  style={{
-                    color: "var(--foreground)",
-                  }}
+                <Link
+                  href="/avisos"
+                  className="block py-2 px-3 text-white rounded-sm md:p-0 dark:text-white"
+                  style={{ color: "var(--foreground)" }}
                 >
-                  Pricing
-                </a>
+                  Avisos
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  style={{
-                    color: "var(--foreground)",
-                  }}
+                <Link
+                  href="/ubicacion"
+                  className="block py-2 px-3 text-white rounded-sm md:p-0 dark:text-white"
+                  style={{ color: "var(--foreground)" }}
                 >
-                  Contact
-                </a>
+                  Ubicacion
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contactanos"
+                  className="block py-2 px-3 text-white rounded-sm md:p-0 dark:text-white"
+                  style={{ color: "var(--foreground)" }}
+                >
+                  Contacto
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/convenios"
+                  className="block py-2 px-3 text-white rounded-sm md:p-0 dark:text-white"
+                  style={{ color: "var(--foreground)" }}
+                >
+                  Convenios
+                </Link>
               </li>
               <button
                 onClick={toggleDarkMode}
@@ -298,54 +306,80 @@ const Navbar = () => {
           <nav className="flex-1 overflow-y-auto py-4">
             <ul className="space-y-1 px-3">
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   onClick={closeMenu}
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                   style={{ color: "var(--foreground)" }}
                 >
-                  Home
-                </a>
+                  Inicio
+                </Link>
               </li>
+
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/nosotros"
                   onClick={closeMenu}
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                   style={{ color: "var(--foreground)" }}
                 >
-                  About
-                </a>
+                  Nosotros
+                </Link>
               </li>
+
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/servicios"
                   onClick={closeMenu}
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                   style={{ color: "var(--foreground)" }}
                 >
-                  Services
-                </a>
+                  Servicios
+                </Link>
               </li>
+
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/avisos"
                   onClick={closeMenu}
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                   style={{ color: "var(--foreground)" }}
                 >
-                  Pricing
-                </a>
+                  Avisos
+                </Link>
               </li>
+
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/ubicacion"
                   onClick={closeMenu}
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
                   style={{ color: "var(--foreground)" }}
                 >
-                  Contact
-                </a>
+                  Ubicación
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/contactanos"
+                  onClick={closeMenu}
+                  className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                  style={{ color: "var(--foreground)" }}
+                >
+                  Contáctanos
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/convenios"
+                  onClick={closeMenu}
+                  className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                  style={{ color: "var(--foreground)" }}
+                >
+                  Convenios
+                </Link>
               </li>
             </ul>
           </nav>

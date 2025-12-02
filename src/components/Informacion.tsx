@@ -64,7 +64,7 @@ const Informacion = () => {
         </Link>
 
         <Link
-          href="/aviso-privacidad"
+          href="/aviso_privacidad"
           className="flex items-center justify-end text-green-700 hover:text-green-900 transition space-x-1 px-2"
         >
           <FileText className="w-5 h-5" />
