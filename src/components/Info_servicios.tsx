@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail, Calendar, FileText } from "lucide-react";
 import Image from "next/image";
-import ExtraCurri from "../images/ExtraCurri.jpg";
+import ExtraCurri from "../images/Extracurri.jpg";
 import ExtraCurri2 from "../images/ExtraCurri2.jpg";
 
 const InfoServicios = () => {
